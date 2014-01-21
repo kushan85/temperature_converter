@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24320AFD188DB8C800063EE5 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24320AFC188DB8C800063EE5 /* NavViewController.m */; };
+		24320B06188DC90300063EE5 /* C2FViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24320B04188DC90300063EE5 /* C2FViewController.m */; };
+		24320B07188DC90300063EE5 /* C2FViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24320B05188DC90300063EE5 /* C2FViewController.xib */; };
 		24F9886F188D9E6400CCBA05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F9886E188D9E6400CCBA05 /* Foundation.framework */; };
 		24F98871188D9E6400CCBA05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F98870188D9E6400CCBA05 /* CoreGraphics.framework */; };
 		24F98873188D9E6400CCBA05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F98872188D9E6400CCBA05 /* UIKit.framework */; };
@@ -19,6 +22,8 @@
 		24F9888A188D9E6400CCBA05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F98872188D9E6400CCBA05 /* UIKit.framework */; };
 		24F98892188D9E6400CCBA05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24F98890188D9E6400CCBA05 /* InfoPlist.strings */; };
 		24F98894188D9E6400CCBA05 /* TemperatureConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F98893188D9E6400CCBA05 /* TemperatureConverterTests.m */; };
+		24F988A0188D9ED400CCBA05 /* F2CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F9889E188D9ED400CCBA05 /* F2CViewController.m */; };
+		24F988A1188D9ED400CCBA05 /* F2CViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F9889F188D9ED400CCBA05 /* F2CViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24320AFB188DB8C800063EE5 /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		24320AFC188DB8C800063EE5 /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		24320B03188DC90300063EE5 /* C2FViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C2FViewController.h; sourceTree = "<group>"; };
+		24320B04188DC90300063EE5 /* C2FViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C2FViewController.m; sourceTree = "<group>"; };
+		24320B05188DC90300063EE5 /* C2FViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C2FViewController.xib; sourceTree = "<group>"; };
 		24F9886B188D9E6400CCBA05 /* TemperatureConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F9886E188D9E6400CCBA05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24F98870188D9E6400CCBA05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +58,9 @@
 		24F9888F188D9E6400CCBA05 /* TemperatureConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TemperatureConverterTests-Info.plist"; sourceTree = "<group>"; };
 		24F98891188D9E6400CCBA05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24F98893188D9E6400CCBA05 /* TemperatureConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureConverterTests.m; sourceTree = "<group>"; };
+		24F9889D188D9ED400CCBA05 /* F2CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F2CViewController.h; sourceTree = "<group>"; };
+		24F9889E188D9ED400CCBA05 /* F2CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F2CViewController.m; sourceTree = "<group>"; };
+		24F9889F188D9ED400CCBA05 /* F2CViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = F2CViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +124,14 @@
 				24F9887E188D9E6400CCBA05 /* AppDelegate.m */,
 				24F98880188D9E6400CCBA05 /* Images.xcassets */,
 				24F98875188D9E6400CCBA05 /* Supporting Files */,
+				24F9889D188D9ED400CCBA05 /* F2CViewController.h */,
+				24F9889E188D9ED400CCBA05 /* F2CViewController.m */,
+				24F9889F188D9ED400CCBA05 /* F2CViewController.xib */,
+				24320AFB188DB8C800063EE5 /* NavViewController.h */,
+				24320AFC188DB8C800063EE5 /* NavViewController.m */,
+				24320B03188DC90300063EE5 /* C2FViewController.h */,
+				24320B04188DC90300063EE5 /* C2FViewController.m */,
+				24320B05188DC90300063EE5 /* C2FViewController.xib */,
 			);
 			path = TemperatureConverter;
 			sourceTree = "<group>";
@@ -219,7 +240,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24320B07188DC90300063EE5 /* C2FViewController.xib in Resources */,
 				24F98879188D9E6400CCBA05 /* InfoPlist.strings in Resources */,
+				24F988A1188D9ED400CCBA05 /* F2CViewController.xib in Resources */,
 				24F98881188D9E6400CCBA05 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F988A0188D9ED400CCBA05 /* F2CViewController.m in Sources */,
 				24F9887F188D9E6400CCBA05 /* AppDelegate.m in Sources */,
+				24320B06188DC90300063EE5 /* C2FViewController.m in Sources */,
+				24320AFD188DB8C800063EE5 /* NavViewController.m in Sources */,
 				24F9887B188D9E6400CCBA05 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +469,7 @@
 				24F98899188D9E6400CCBA05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24F9889A188D9E6400CCBA05 /* Build configuration list for PBXNativeTarget "TemperatureConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +478,7 @@
 				24F9889C188D9E6400CCBA05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
